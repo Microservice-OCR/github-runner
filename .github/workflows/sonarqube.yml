@@ -42,5 +42,5 @@ jobs:
         export PATH=$PATH:$(pwd)/sonar-scanner-4.6.2.2472-linux/bin
         sonar-scanner \
           -Dsonar.projectKey=Runner \
-          -Dsonar.host.url=http://sonarqube:9000 \
+          -Dsonar.host.url=https://7f69-176-138-173-84.ngrok-free.app \
           -Dsonar.login=$SONAR_TOKEN
